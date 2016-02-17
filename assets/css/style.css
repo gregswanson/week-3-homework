@@ -1,0 +1,96 @@
+body {
+	font-family: 'Special Elite', cursive;
+	background-image: url("../images/bg.png");
+}
+
+.displayImg {
+	height: 200px;
+	width: 200px;
+	border: 1px solid #000000;
+	margin: auto;
+}
+
+.info {
+	font-size: 16px;
+	color: #000;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+h1 {
+	font-size: 85px;
+}
+
+h3 {
+	font-size: 40px;
+	color: red;
+	margin-top: -30px;
+	margin-bottom: 40px;
+}
+
+h4 {
+	font-size: 18px;
+	color: #000;
+}
+
+.loud {
+	font-size: 18px;
+	color: #fff;
+	background-color: red;
+	display: inline-block;
+	padding: 7px 15px 5px 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.loud1 {
+	font-size: 22px;
+	color: red;
+	margin-bottom: 20px;
+}
+
+.current {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.guesses {
+	font-size: 22px;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.box {
+	font-size: 18px;
+	color: #fff;
+	background-color: #000;
+	display: inline-block;
+	padding: 5px;
+	margin-bottom: 10px;
+	-ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+    transform: rotate(2deg);
+}
+
+.box1 {
+	font-size: 18px;
+	color: #fff;
+	background-color: #000;
+	display: inline-block;
+	padding: 5px 7px 5px 3px;
+	margin-bottom: 10px;
+	-ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+}
+
+.message {
+	font-size: 18px;
+	color: red;
+}

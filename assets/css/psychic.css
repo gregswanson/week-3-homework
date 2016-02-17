@@ -1,0 +1,74 @@
+body {
+	margin: auto;
+	font-family: 'Bitter', serif;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 65px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 40px;
+	color: #a9a9a9;
+}
+
+p {
+	display: block;
+}
+
+.container {
+	padding: 20px;
+}
+
+.answer {
+	font-size: 18pt;
+	padding: 5px;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.title {
+	font-size: 40px;
+	font-weight: 800;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+img {
+	width: 300px;
+}
+
+.choice {
+	display: inline-block;
+	width: 350px;
+	border: 2px solid #000;
+	margin: 20px;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.imageHover {
+	-webkit-filter: brightness(100%);
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+}
+
+.imageHover:hover {
+	-webkit-filter: brightness(50%);
+}
